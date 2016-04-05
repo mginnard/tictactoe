@@ -11,15 +11,20 @@ body {
     color: $white;
 }
 
+.t3-title {
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+.t3-description {
+    max-width: 320px;
+    margin: 10px auto 0;
+    color: $blue;
+}
 
 .t3-title,
 .t3-description {
     text-align: center;
-}
-
-.t3-title {
-    margin-bottom: 0;
-    font-size: 24px;
 }
 
 .t3-wrapper {

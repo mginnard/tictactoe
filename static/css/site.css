@@ -7,13 +7,18 @@ body {
   background-color: #001F3F;
   color: #FFFFFF; }
 
-.t3-title,
-.t3-description {
-  text-align: center; }
-
 .t3-title {
   margin-bottom: 0;
   font-size: 24px; }
+
+.t3-description {
+  max-width: 320px;
+  margin: 10px auto 0;
+  color: #0074D9; }
+
+.t3-title,
+.t3-description {
+  text-align: center; }
 
 .t3-wrapper {
   height: 300px;
