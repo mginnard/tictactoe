@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  background-color: #001F3F;
+  color: #FFFFFF; }
+
+.t3-title,
+.t3-description {
+  text-align: center; }
+
+.t3-title {
+  margin-bottom: 0; }
+
+.t3-description {
+  max-width: 320px;
+  margin: 10px auto 0;
+  color: #0074D9; }
+
+.t3-wrapper {
+  height: 300px;
+  width: 300px;
+  margin: 40px auto 0;
+  background-color: #003872;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.t3-row {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch; }
+
+.t3-square {
+  margin: 10px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0051a5;
+  color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: all 80ms ease; }
+  .t3-square:hover {
+    transform: scale(1.1);
+    color: #FFFFFF; }

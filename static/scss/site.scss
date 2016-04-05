@@ -1,0 +1,62 @@
+@import 'modules/_variables';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: $font-family-sans;
+    background-color: $navy;
+    color: $white;
+}
+
+
+.t3-title,
+.t3-description {
+    text-align: center;
+}
+
+.t3-title {
+    margin-bottom: 0;
+}
+
+.t3-description {
+    max-width: 320px;
+    margin: 10px auto 0;
+    color: $blue;
+}
+
+.t3-wrapper {
+    height: 300px;
+    width: 300px;
+    margin: 40px auto 0;
+    background-color: lighten($navy, 10%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.t3-row {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.t3-square {
+    margin: 10px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lighten($navy, 20%);
+    color: rgba($white, .4);
+    cursor: pointer;
+    transition: all 80ms ease;
+    &:hover {
+        transform: scale(1.1);
+        color: $white;
+    }
+}
