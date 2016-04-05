@@ -30,12 +30,13 @@ body {
 .t3-wrapper {
     height: 300px;
     width: 300px;
-    margin: 40px auto 0;
+    margin: 20px auto 0;
     background-color: lighten($navy, 10%);
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .t3-row {
@@ -47,6 +48,8 @@ body {
 
 .t3-square {
     margin: 10px;
+    font-size: 18px;
+    font-family: $font-family-mono;
     flex: 1;
     display: flex;
     align-items: center;
@@ -57,6 +60,25 @@ body {
     transition: all 80ms ease;
     &:hover {
         transform: scale(1.1);
+        color: $white;
+    }
+}
+
+.t3-btn-group {
+    text-align: center;
+}
+
+.btn-reset {
+    color: rgba($white,.8);
+    padding: 8px 18px;
+    background-color: lighten($navy, 20%);
+    border-color: 1px solid $white;
+    border-radius: 4px;
+    text-decoration: none;
+    &:hover,
+    &:focus,
+    &:active {
+        text-decoration: none;
         color: $white;
     }
 }

@@ -22,12 +22,13 @@ body {
 .t3-wrapper {
   height: 300px;
   width: 300px;
-  margin: 40px auto 0;
+  margin: 20px auto 0;
   background-color: #003872;
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-bottom: 20px; }
 
 .t3-row {
   flex: 1;
@@ -37,6 +38,8 @@ body {
 
 .t3-square {
   margin: 10px;
+  font-size: 18px;
+  font-family: "Source Code Pro", monospace;
   flex: 1;
   display: flex;
   align-items: center;
@@ -47,4 +50,18 @@ body {
   transition: all 80ms ease; }
   .t3-square:hover {
     transform: scale(1.1);
+    color: #FFFFFF; }
+
+.t3-btn-group {
+  text-align: center; }
+
+.btn-reset {
+  color: rgba(255, 255, 255, 0.8);
+  padding: 8px 18px;
+  background-color: #0051a5;
+  border-color: 1px solid #FFFFFF;
+  border-radius: 4px;
+  text-decoration: none; }
+  .btn-reset:hover, .btn-reset:focus, .btn-reset:active {
+    text-decoration: none;
     color: #FFFFFF; }
